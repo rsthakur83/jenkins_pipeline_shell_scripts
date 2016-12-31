@@ -7,6 +7,6 @@ node {
    	stage 'Build'
    		sh './myBuild.sh'
    	stage 'Deploy'
-   		sh './myDeployment.sh'
+   		sudo sh './myDeployment.sh'
   
 }
